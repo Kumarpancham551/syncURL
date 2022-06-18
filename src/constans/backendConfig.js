@@ -1,0 +1,24 @@
+module.exports ={
+    httpCodes:{
+        internalServerError:500,
+        notFound:404,
+        success:200,
+        badRequest:400,
+        unauthrised:401
+    },
+    httColorCodes:{
+        internalServerError:31,
+        badRequest:33,
+        multipleChoices:36,
+        success:32
+    },
+    mysql:{
+        local:{
+            host:"localhost",
+            user:"root",
+            password:"8873",
+            database:"testbel",
+        },
+    },
+    secretKey:'relevel'
+};
